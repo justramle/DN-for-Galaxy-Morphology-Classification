@@ -2,7 +2,7 @@
 
 A comparison of three convolutional neural network approaches — a CNN built from scratch, a ResNet-50, and an EfficientNet-B5 — on the task of classifying galaxy morphology from the [Galaxy10 DECals](https://astronn.readthedocs.io/en/latest/galaxy10.html) dataset. This project received a **Best Paper Award** (see [`certificate/`](certificate)).
 
-**Team:** Tram Le, Thi Minh Thu Nguyen, Nickson Ibrahim Makama, Thanyaporn Noiplab
+**Team:** Tram Le*, Thi Minh Thu Nguyen, Nickson Ibrahim Makama, Thanyaporn Noiplab
 
 ## Dataset
 
@@ -23,10 +23,6 @@ A comparison of three convolutional neural network approaches — a CNN built fr
 
 Class 4 is heavily underrepresented, so the custom CNN pipeline oversamples it 3x with augmentation (rotation, shift, zoom, flip) before training.
 
-<p align="center">
-  <img src="docs/galaxy_10.png" width="48%" alt="Sample images per galaxy class">
-  <img src="docs/galaxy_distribution.png" width="48%" alt="Class distribution">
-</p>
 
 ## Models
 
