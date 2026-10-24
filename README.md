@@ -60,5 +60,3 @@ python Galaxy_Morphological_CustomModel.py
 python Galaxy_Morphological_RestNet50.py
 python Galaxy_Morphological_EfficientNetB5_2.py
 ```
-
-> **Note:** these scripts write new checkpoints (`galaxy_model.json`/`best_model.h5`, `galaxy_r50_model.pth`, `galaxy_efficientnetb5_2_model.pth`) — they won't overwrite the pretrained weights already included in `checkpoints/` (`checkpoint_custom_model.h5`, `checkpoint_resnet`, `checkpoint_effiecientNet`).
