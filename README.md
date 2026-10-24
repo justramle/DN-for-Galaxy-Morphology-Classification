@@ -42,28 +42,6 @@ All three use early stopping on validation accuracy/loss, and the PyTorch models
 | ResNet-50 | 80.4% | Randomly initialized backbone |
 | EfficientNet-B5 | 87.0% | ImageNet-pretrained backbone, best performer |
 
-<p align="center">
-  <img src="docs/efficientnetcurve.png" width="32%" alt="EfficientNet-B5 training curves">
-  <img src="docs/resnetcurve.png" width="32%" alt="ResNet-50 training curves">
-  <img src="docs/customCurve.png" width="32%" alt="Custom CNN training curves">
-</p>
-
-Per-class F1 comparisons and confusion matrices for each model are in [`docs/`](docs).
-
-## Repository structure
-
-```
-.
-├── Galaxy_Morphological_CustomModel.py       # custom CNN training script
-├── Galaxy_Morphological_RestNet50.py         # ResNet-50 training script
-├── Galaxy_Morphological_EfficientNetB5_2.py  # EfficientNet-B5 training script
-├── plotting.py                               # shared training-curve / confusion-matrix plots
-├── notebook/                                 # original Colab notebooks (source of the scripts above)
-├── checkpoints/                              # pretrained model weights
-├── docs/                                     # architecture diagrams, curves, confusion matrices
-├── certificate/                              # best paper award + presentation certificates
-└── LICENSE
-```
 
 ## Setup
 
