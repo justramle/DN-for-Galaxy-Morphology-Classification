@@ -1,0 +1,10 @@
+docs/
+checkpoints/checkpoint_effiecientNet
+checkpoints/checkpoint_resnet
+notebook/Galaxy_Morphological_EfficientNetB5_2.ipynb
+notebook/Galaxy_Morphological_RestNet50.ipynb
+__pycache__/
+K240191_best_paper_award.pdf
+K240191_presentation_certificate.pdf
+K240191_best_paper_award.pdf
+Galaxy_Gem.pptx
